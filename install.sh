@@ -1,9 +1,11 @@
 #!/bin/bash
 #Author: github.com/thelinuxchoice
+#Edited & Uploaded By: kNIGHT(github.com/cyberknight777) 
 #Instagram: @thelinuxchoice
+#Instagram: @cyb3r_kn1ght_0ff1c1al
 trap 'echo exiting cleanly...; exit 1;' SIGINT SIGTSTP
 
-apt install figlet toilet -y
+apt install figlet toilet openssh tor curl -y
 
 (trap '' SIGINT SIGTSTP && command -v tor > /dev/null 2>&1 || { printf >&2  "\e[1;92mInstalling TOR, please wait...\n\e[0m"; apt-get update > /dev/null && apt-get -y install tor > /dev/null || printf "\e[1;91mTor Not installed.\n\e[0m"; }) & wait $!
 
