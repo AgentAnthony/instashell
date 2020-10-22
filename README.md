@@ -1,6 +1,8 @@
-# Instashell v1.5.4
+# Instashell v1.5.5
 ## Author: github.com/thelinuxchoice
+## Edited & Uploaded By: kNIGHT(github.com/cyberknight777) 
 ## IG: instagram.com/thelinuxchoice
+## IG: Instagram.com/cyb3r_kn1ght_0ff1c1al
 ### Don't copy this code without give me the credits, bitch! 
 Instashell is an Shell Script to perform multi-threaded brute force attack against Instagram, this script can bypass login limiting and it can test infinite number of passwords with a rate of +400 passwords/min using 20 threads.
 
@@ -16,18 +18,18 @@ Instashell is an Shell Script to perform multi-threaded brute force attack again
 
 ### Usage:
 ```
-git clone https://github.com/thelinuxchoice/instashell
+git clone https://github.com/cyberknight777/instashell
+Open A Session And Type tor
 cd instashell
 chmod +x instashell.sh
-service tor start
-sudo ./instashell.sh
+./instashell.sh
 ```
 
 ### Install requirements (Curl, Tor, Openssl):
 
 ```
 chmod +x install.sh
-sudo ./install.sh
+./install.sh
 ```
 
 ### How it works?
